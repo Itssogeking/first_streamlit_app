@@ -44,8 +44,7 @@ except URLError as e:
     streamlit.error()
 
 
-#don't run anything past here whilie we troubleshoot
-streamlit.stop()
+
 
 #import snowflake.connector - moved all imports to the top of the page
 streamlit.header("The fruit load list contains:")
